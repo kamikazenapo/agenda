@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="libs/sweetalert2/dist/sweetalert2.min.css">
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid bg-primary">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-10">
+            <h1 class="display-4 text-white">Agenda de Contatos</h1>
+          </div>
+          <div class="col-md-2">
+            <img src="img/logo.png" alt="Logo" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="offset-md-4 col-md-4">
+          <h4 class="text-danger text-center">Login do Sistema</h4>
+
+          <form id="form-login">
+            <div class="form-group">
+              <label for="login">Login</label>
+              <input id="login" type="text" class="form-control" type="text" name="login">
+            </div>
+
+            <div class="form-group">
+              <label for="password">Senha</label>
+              <input id="password" type="password" class="form-control" type="text" name="password">
+            </div>
+
+            <button class="btn btn-outline-success btn-login"><i class="mdi mdi-login"></i> Entrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="libs/sweetalert2/dist/sweetalert2.min.js"></script>
+  <script src="usuario/controle/validate.js"></script>
+</html>
